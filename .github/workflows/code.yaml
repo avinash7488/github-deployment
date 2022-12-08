@@ -1,19 +1,15 @@
 name: github_api
 # Triggers(events)
 
-on:
-  push:
-
-  pill_request:
-    branches:
-        -master
+on: [push,pull_request]
 
 
 # function(what needs to be done)
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+
+runs-on: ubuntu-latest
 
 
 steps:
