@@ -6,7 +6,7 @@ on:
 
   pill_request:
     branches:
-        -main
+        -master
 
 
 # function(what needs to be done)
