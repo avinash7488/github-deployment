@@ -1,4 +1,4 @@
-name:github_api
+name: github_api
 # Triggers(events)
 
 on:
