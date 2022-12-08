@@ -29,7 +29,6 @@ steps:
         with:
           name: production-files
           path: ./build
-
   deploy:
     name: deploy
     runs-on: ubuntu-latest
